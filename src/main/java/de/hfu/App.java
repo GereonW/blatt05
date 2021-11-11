@@ -1,11 +1,20 @@
 package de.hfu;
 
 import java.io.*;
-// import java.util.*;
 
+/**
+ * This is the main app which can run standalone.
+ * 
+ * @author David Gereon Wolf
+ */
 
 public class App
 {
+	/**
+	 * Main: executes on runtime
+	 * @param args
+	 * @throws IOException
+	 */
     public static void main( String[] args ) throws IOException
     {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
